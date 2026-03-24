@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
-import { Send, Loader2, CheckCircle, Copy, MessageCircle } from 'lucide-react'
+import { Send, Loader2, CheckCircle, MessageCircle } from 'lucide-react'
 
 export function PublicMessage() {
   const { username } = useParams<{ username: string }>()

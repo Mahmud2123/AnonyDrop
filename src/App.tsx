@@ -1,5 +1,4 @@
 // src/App.tsx
-import React from 'react';
 // src/App.tsx
 import { BrowserRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
 import { Auth } from './components/Auth';

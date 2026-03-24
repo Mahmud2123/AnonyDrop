@@ -1,5 +1,5 @@
 // src/components/Layout.tsx (Simplified - only use for dashboard/auth if needed)
-import React , { ReactNode } from 'react';
+import   { ReactNode } from 'react';
 
 export function Layout({ children }: { children: ReactNode }) {
   return (
